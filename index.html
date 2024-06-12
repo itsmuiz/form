@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+    </style>
+    <title>contact form</title>
+</head>
+
+<body>
+    <div class="form-container">
+        <form class="form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="bf47c8f9-bd88-4de8-b449-3f0311848f72">
+            <div class="form-group">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="email" required><br>
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="name" required><br>
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="message">Message</label>
+                <textarea name="message" placeholder="message" required></textarea><br>
+
+            </div>
+
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <button type="submit" class="form-submit-btn">Submit</button>
+        </form>
+    </div>
+
+
+
+
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.6.0/build/spline-viewer.js"></script>
+    <spline-viewer url="https://prod.spline.design/HgiIug8w4BhWXlwO/scene.splinecode"></spline-viewer>
+
+</body>
+
+</html>
